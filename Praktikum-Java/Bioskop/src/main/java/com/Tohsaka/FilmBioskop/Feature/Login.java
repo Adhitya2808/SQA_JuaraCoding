@@ -3,7 +3,7 @@ package com.Tohsaka.FilmBioskop.Feature;
 import java.util.Scanner;
 
 public class Login {
-    public static void Login() {                            //Method Untuk Login
+    public static void login() {                            //Method Untuk Login
         String user, pass;
         System.out.println("=== Login ===");
         Scanner username = new Scanner(System.in);
