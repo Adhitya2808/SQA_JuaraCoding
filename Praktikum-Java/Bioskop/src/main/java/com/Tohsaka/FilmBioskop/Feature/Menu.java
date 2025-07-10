@@ -9,7 +9,7 @@ public class Menu {
         System.out.println("3. Cari Film");
         System.out.println("4. Keluar");
         Scanner menu = new Scanner(System.in);
-        System.out.print("Pilih : "+menu);
+        System.out.print("Pilih : ");
 
         switch (menu.nextInt()){                           // Percabangan Untuk Menentukan Menu Apa Yang Dipilih oleh user
             case 1:
