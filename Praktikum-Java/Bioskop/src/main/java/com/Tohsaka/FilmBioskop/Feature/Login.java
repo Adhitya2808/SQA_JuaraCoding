@@ -3,8 +3,9 @@ package com.Tohsaka.FilmBioskop.Feature;
 import java.util.Scanner;
 
 public class Login {
+    private static String user,pass;
+
     public static void login() {                            //Method Untuk Login
-        String user, pass;
         System.out.println("=== Login ===");
         Scanner username = new Scanner(System.in);
         System.out.print("Username : " + username);         // Masukkan Username
@@ -18,7 +19,7 @@ public class Login {
             Menu.TampilkanMenu();                          // Jika benar maka akan memanggil Daftar Menu
         } else {
             System.out.println("Login Gagal!");
-            Logout.Keluar();                              // Jika salah maka akan keluar
+            Logout.keluar();                              // Jika salah maka akan keluar
         }
     }
 }
